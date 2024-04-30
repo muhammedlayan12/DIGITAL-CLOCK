@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #ccece8; /* Change this to your desired background color */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the background stays behind other content */
+  }
+  
+  .clock {
+    font-size: 3em;
+  }
+  
+  .time {
+    display: inline-block;
+  }
+  
+  .ampm {
+    display: inline-block;
+    font-size: 0.5em;
+    vertical-align: top;
+  }
+  
